@@ -8,6 +8,13 @@ const bookSchema = new Schema(
             unique: true,
             trim: true
         },
+        description : {
+            type: String,
+            required: true,
+        },
+        image: {
+            type: String
+        },
         author: {
             type: String,
             required: true,
@@ -17,7 +24,21 @@ const bookSchema = new Schema(
             type: String,
             required: true,
             lowercase: true,
-        }
+        },
+        price: {
+            type: Number,
+            required : true
+        },
+        quantity: [{
+            sold : {
+                type: Number,
+                required: true
+            },
+            available : {
+                type: Number,
+                required: true
+            }
+        }]
     }
 );
 

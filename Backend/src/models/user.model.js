@@ -35,11 +35,25 @@ const userSchema = new Schema(
             max: 10,
             min: 10
         },
-        address: {
-            type: String,
-            required: true,
-            max: 60
-        }
+      
+        address:[{
+            country:{
+                type: String,
+                required: true
+            },
+            state: {
+                type: String,
+                required: true
+            },
+            city : {
+                type: String,
+                required: true
+            }
+        }],
+        
+    },
+    {
+        timestamps: true
     }
 );
 
