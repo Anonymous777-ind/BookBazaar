@@ -13,7 +13,8 @@ const bookSchema = new Schema(
             required: true,
         },
         image: {
-            type: String
+            type: String,
+            default: "Image"
         },
         author: {
             type: String,
