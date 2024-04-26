@@ -6,14 +6,15 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        "custom-white":"#ffffff",
-        "custom-blue":"#2f4858"
+      colors: {
+        "custom-blue": "#2f4858",
+        "custom-green": "#5a8f7b",
+        "custom-gray": "#676768",
       },
-      
-      fontFamily:{
-        "custom-heading":["Philosopher", "sans-serif"]
 
+      fontFamily: {
+        "custom-heading": ["Philosopher", "sans-serif"],
+        "custom-sub-heading-para": ["Poppins", "sans-serif"]
       }
     },
   },
