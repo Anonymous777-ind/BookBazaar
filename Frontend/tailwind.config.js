@@ -10,6 +10,7 @@ export default {
         "custom-white":"#ffffff",
         "custom-blue":"#2f4858"
       },
+      
       fontFamily:{
         "custom-heading":["Philosopher", "sans-serif"]
 
