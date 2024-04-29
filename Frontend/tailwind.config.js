@@ -18,7 +18,8 @@ export default {
       },
       padding: {
         "padding-sm": "0.875rem"
-      }
+      },
+      
     },
   },
   plugins: [],
