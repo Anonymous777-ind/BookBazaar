@@ -15,6 +15,9 @@ export default {
       fontFamily: {
         "custom-heading": ["Philosopher", "sans-serif"],
         "custom-sub-heading-para": ["Poppins", "sans-serif"]
+      },
+      padding: {
+        "padding-sm": "0.875rem"
       }
     },
   },
