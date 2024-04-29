@@ -1,15 +1,13 @@
-import React from 'react'
-
+import React from "react";
 
 function Header() {
   return (
-    <>
-    <div className="w-32 p-3">
-    <img src="../public/logo.png" alt="logo" />
-
-    </div>
-    </>
-  )
+    <header className="w-screen h-28 border-2 border-black xs:px-2">
+      <nav className="w-full mx-auto h-full container  border-2 border-red-600">
+        
+      </nav>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
