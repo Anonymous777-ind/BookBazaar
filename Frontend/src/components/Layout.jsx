@@ -1,14 +1,16 @@
-import React from 'react'
-import Footer from "./Footer"
-import Header from "./Header"
+import React from "react";
+import Footer from "./Footer";
+import Header from "./Header";
+import Carousel from "./Carousel/Carousel";
 
 function Layout() {
   return (
     <>
       <Header />
-      <Footer />
+      {/* <Carousel /> */}
+      {/* <Footer /> */}
     </>
-  )
+  );
 }
 
-export default Layout
+export default Layout;
