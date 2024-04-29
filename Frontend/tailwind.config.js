@@ -18,6 +18,19 @@ export default {
       },
       padding: {
         "padding-sm": "0.875rem"
+      },
+      screens: {
+        'xs': {'max': '426px'},
+
+        'sm': '641px',
+
+        'md': '769px',
+
+        'lg': '1025px',
+
+        'xl': '1281px',
+
+        '2xl': '1537px'
       }
     },
   },
