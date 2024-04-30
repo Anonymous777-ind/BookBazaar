@@ -10,8 +10,7 @@ function Layout() {
     <>
       <Header />
       <Carousel /> 
-      {/* <Joinus/> */}
-     <Outlet/> 
+      <Joinus/>
        <Footer />
     </>
   );
