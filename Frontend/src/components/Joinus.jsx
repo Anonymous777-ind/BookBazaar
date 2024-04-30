@@ -1,5 +1,5 @@
 import React from 'react'
-
+import coverImage from "../assets/uploads/"
 
 function Joinus() {
   return (
