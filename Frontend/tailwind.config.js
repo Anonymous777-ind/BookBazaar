@@ -31,6 +31,9 @@ export default {
         'xl': '1281px',
 
         '2xl': '1537px'
+      },
+      backgroundImage: {
+        'coverImage' : "url('./src/assets/uploads/cover1.jpg')"
       }
     },
   },
