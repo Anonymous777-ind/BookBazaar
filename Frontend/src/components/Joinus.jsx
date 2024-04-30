@@ -9,7 +9,7 @@ function Joinus() {
          <img src={coverImage} alt="Cover image" />
         </div>
         <div className="right-inner">
-
+          <h1></h1>
         </div>
     </div>
    </section>
