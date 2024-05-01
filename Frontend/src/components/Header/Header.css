@@ -1,0 +1,8 @@
+::placeholder{
+    color: #2f4858 !important;
+    opacity: 0.5 !important;
+}
+
+#query{
+    border: 2px solid rgb(47, 72, 88, 0.4);
+}

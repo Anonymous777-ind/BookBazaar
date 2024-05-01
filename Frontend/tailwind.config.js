@@ -20,7 +20,7 @@ export default {
         "padding-sm": "0.875rem"
       },
       screens: {
-        'xs': {'max': '426px'},
+        'xs': {'max': '431px'},
 
         'sm': '641px',
 
