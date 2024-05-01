@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-regular-svg-icons";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [query, setQuery] = useState("");
@@ -17,9 +18,9 @@ function Header() {
     <header className="w-screen border-2 border-black p-3 xs:px-2">
       <nav className="w-full flex gap-2 items-center justify-between mx-auto h-full container">
         <div className="w-[40vw] sm:w-[12vw]">
-          <a href="#">
+          <Link to="/">
             <img src="../../public/logo.png" alt="" />
-          </a>
+          </Link>
         </div>
         <div className="flex items-center justify-center w-96 relative xs:hidden">
           <form className="w-[100%] relative" action="" method="GET">
