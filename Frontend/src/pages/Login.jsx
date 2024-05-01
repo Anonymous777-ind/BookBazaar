@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Login() {
   return (
-    <div className="flex min-h-full flex-col justify-center md:mt-28 px-6 py-12 lg:px-8">
+    <div className="flex min-h-full flex-col justify-center md:mt-28 px-6 py-2 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <Link to="/login">
           <FaRegUser style={{fontSize: "40px", margin: "10px auto"}}/>
