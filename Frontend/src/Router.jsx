@@ -9,6 +9,7 @@ import Carousel from "./components/Carousel/Carousel";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Error from "./pages/Error";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,8 +17,11 @@ const router = createBrowserRouter(
       <Route exact path="/" element={<App />}>
         <Route path="/" element={<Home />} />
       </Route>
-      <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="*" element={<Error />} />
+
+      {/* <Route path="/forgot" element={<Register />} /> */}
     </>
   )
 );
