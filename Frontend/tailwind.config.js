@@ -10,6 +10,7 @@ export default {
         "custom-blue": "#2f4858",
         "custom-green": "#5a8f7b",
         "custom-gray": "#676768",
+        
       },
 
       fontFamily: {
@@ -32,9 +33,10 @@ export default {
 
         '2xl': '1537px'
       },
-      backgroundImage: {
-        'coverImage' : "url('./src/assets/uploads/cover1.jpg')"
-      }
+     boxShadow:{
+      'shadow' : '2px 0 15px 5px rgba(1, 6, 33, .06)'
+     }
+    
     },
   },
   plugins: [],
