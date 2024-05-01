@@ -13,7 +13,7 @@ import Register from "./pages/Register";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path="/" element={<App />}>
+      <Route exact path="/" element={<App />}>
         <Route path="/" element={<Home />} />
       </Route>
       <Route path="/login" element={<Login />} />
