@@ -12,7 +12,7 @@ function BookGallery() {
           <Link>See all</Link>
         </div>
 
-        <div className="mt-6 grid grid-cols-1 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-6 grid grid-cols-1 gap-x-2 sm:grid-cols-3 lg:grid-cols-5 xl:gap-x-4">
           <div className="group relative p-3 shadow-xl rounded-lg">
             <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-auto">
               <img
