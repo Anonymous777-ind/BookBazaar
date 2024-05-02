@@ -1,5 +1,4 @@
 
-
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import {
   faCartShopping,
@@ -160,33 +159,33 @@ const Navbar = () => {
         </div>
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="lg:hidden w-[80vw] mx-auto border-4 absolute z-50 bg-white left-20">
+          <div className="lg:hidden w-full mx-auto border-4 absolute z-50 bg-white">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {/* Home */}
               <Link
                 to="/"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-custom-blue hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Home
               </Link>
               {/* Categories */}
               <Link
                 to="/categories"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-custom-blue hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Categories
               </Link>
               {/* About Us */}
               <Link
                 to="/aboutus"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-custom-blue hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 About Us
               </Link>
               {/* Contact Us */}
               <Link
                 to="/contactus"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-custom-blue hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 Contact Us
               </Link>

@@ -1,16 +1,7 @@
-/* .carousel-item{
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-} */
-.carousel-image{
-    width: 50px;
-    height: 30px;
-   
-}
-.p-icon{
+.carousel-indicators [data-bs-target] {
     background-color: #5a8f7b !important;
-    border: 2px solid green; 
-    padding: 3px;
+    border-radius: 50% !important;
+    width: 10px;
+    height: 10px;
 
 }
