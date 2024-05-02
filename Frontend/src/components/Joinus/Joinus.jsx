@@ -21,7 +21,7 @@ function Joinus() {
                     <form action="">
                         <div className="input my-5 xs:flex-col xs:gap-3">
                             <input className=' text-custom-gray font-custom-sub-heading-para leading-normal' type="mail" placeholder='Your email' required />
-                            <button className='btn text-white font-custom-sub-heading-para text-lg px-10 bg-custom-green xs:w-full  xs:rounded-lg xs:inline-block xs:text-lg xs:text-center xs:mx-auto ' type="submit">Subscribe</button>
+                            <button className=' text-white font-custom-sub-heading-para text-lg px-10 bg-custom-green xs:w-full  xs:rounded-lg xs:inline-block xs:text-lg xs:text-center xs:mx-auto ' type="submit">Subscribe</button>
                         </div>
                        
                     </form>
