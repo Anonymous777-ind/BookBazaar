@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRightLong } from "@fortawesome/free-solid-svg-icons";
 
 function BookGallery() {
   return (
@@ -9,7 +11,7 @@ function BookGallery() {
           <h2 className="text-5xl font-bold tracking-tight text-custom-blue font-custom-heading">
             Bestseller
           </h2>
-          <Link>See all</Link>
+          <Link to="/categories" className="text-custom-blue hover: font-custom-sub-heading-para">View more &nbsp; <FontAwesomeIcon className="transform hover:translate-x-1 duration-200" icon={faArrowRightLong} style={{color: "#2f4858",}} /></Link>
         </div>
 
         <div className="mt-6 grid grid-cols-1 gap-x-2 sm:grid-cols-3 lg:grid-cols-5 xl:gap-x-4">
