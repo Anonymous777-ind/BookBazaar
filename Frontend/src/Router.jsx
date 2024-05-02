@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Error from "./pages/Error";
+import ProductOverview from "./pages/ProductOverview";
 
 
 const router = createBrowserRouter(
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/overview" element={<ProductOverview />} />
       
       <Route path="*" element={<Error />} />
 

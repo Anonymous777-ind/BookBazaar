@@ -24,7 +24,7 @@ function BookGallery() {
             <div className="mt-4 flex justify-between">
               <div>
                 <h3 className="text-2xl text-gray-700">
-                  <Link to="#" className="font-medium">
+                  <Link to="/overview" className="font-medium">
                     <span
                       aria-hidden="true"
                       className="absolute inset-0"

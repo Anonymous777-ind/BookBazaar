@@ -60,7 +60,7 @@ function CarouselSlides() {
             </div>
             <div className="col-md-6">
               <div className="carousel-image">
-                <img src={hero3} alt="..." className="d-block w-80 h-auto xs:w-full xs:opacity-35" />
+                <img src={hero3} alt="..." className="d-block h-[64vh] xs:w-full xs:opacity-35" />
               </div>
             </div>
           </div>
