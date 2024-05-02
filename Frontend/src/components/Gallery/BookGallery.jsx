@@ -11,7 +11,7 @@ function BookGallery() {
           <h2 className="text-5xl font-bold tracking-tight text-custom-blue font-custom-heading">
             Bestseller
           </h2>
-          <Link to="/categories" className="text-custom-blue hover: font-custom-sub-heading-para">View more &nbsp; <FontAwesomeIcon className="transform hover:translate-x-1 duration-200" icon={faArrowRightLong} style={{color: "#2f4858",}} /></Link>
+          <Link to="/categories" className="text-custom-blue hover:underline font-custom-sub-heading-para">View more &nbsp; <FontAwesomeIcon icon={faArrowRightLong} style={{color: "#2f4858",}} /></Link>
         </div>
 
         <div className="mt-6 grid grid-cols-1 gap-x-2 sm:grid-cols-3 lg:grid-cols-5 xl:gap-x-4">
