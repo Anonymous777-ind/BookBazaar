@@ -59,7 +59,7 @@ function CarouselSlides() {
                   <img
                     src={hero}
                     alt="..."
-                    className="d-block w-80 h-auto xs:w-full xs:opacity-35"
+                    className="d-block w-80 h-auto xs:opacity-35 xs:w-80 xs:h-auto"
                   />
                 </div>
               </div>
@@ -96,11 +96,11 @@ function CarouselSlides() {
           <div className="carousel-item relative">
             <div className="row">
               <div className="col-md-6">
-                <div className="carousel-caption text-start absolute w-4/12 top-24  ">
+                <div className="carousel-caption text-start absolute w-4/12 top-24">
                   <h5 className="text-custom-blue  font-custom-heading">
                     LETS MAKE THE BEST INVESTMENTS
                   </h5>
-                  <h3 className="text-custom-blue font-custom-heading">
+                  <h3 className="text-custom-blue  font-custom-heading">
                     There Is No Friend As Loyal As A Book
                   </h3>
                   <p className="text-custom-green text-wrap font-custom-sub-heading-para">
@@ -110,25 +110,17 @@ function CarouselSlides() {
                   </p>
                 </div>
               </div>
-
-            </div>
-            <div className="col-md-6">
-              <div className="carousel-image">
-                <img src={hero3} alt="..." className="d-block h-[64vh] xs:w-full xs:opacity-35" />
-
               <div className="col-md-6">
                 <div className="carousel-image">
                   <img
                     src={hero3}
                     alt="..."
-                    className="d-block w-80 h-auto xs:w-full xs:opacity-35"
+                    className="d-block xs:w-80 xs:h-[64vh] h-[64vh] xs:opacity-35"
                   />
                 </div>
-
               </div>
             </div>
           </div>
-        </div>
         <button
           className="carousel-control-prev absolute z-40 p-icon bg-custom-green"
           type="button"
@@ -154,6 +146,7 @@ function CarouselSlides() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+    </div>
     </div>
   );
 }
