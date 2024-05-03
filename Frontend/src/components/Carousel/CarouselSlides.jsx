@@ -8,146 +8,52 @@ import './CarouselSlider.css'
 
 function CarouselSlides() {
   return (
-    <div className="container mx-auto mt-4 relative top-5 px-0">
-      <div
-        id="carouselExampleCaptions"
-        className="carousel slide"
-        data-bs-ride="carousel"
-      >
+    <section className="container mx-auto border-2 border-red-600 h-[85vh]">
+      <div id="carouselExampleDark" className="carousel carousel-dark slide border-2 border-gray-600" data-bs-ride="carousel">
         <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item relative active ">
-            <div className="row ">
-              <div className="col-md-6">
-                <div className="carousel-caption text-start absolute w-4/12 top-24 ">
-                  <h5 className="text-custom-blue  font-custom-heading">
-                    LETS MAKE THE BEST INVESTMENTS
-                  </h5>
-                  <h3 className="text-custom-blue  font-custom-heading">
-                    There Is No Friend As Loyal As A Book
-                  </h3>
-                  <p className="text-custom-green text-wrap font-custom-sub-heading-para">
-                    "Books stand as unwavering companions, offering solace,
-                    wisdom, and escape. There is no loyal friend as faithful as
-                    a book."
-                  </p>
-                </div>
+          <div className="carousel-item active" data-bs-interval="10000">
+            <div className="flex items-center justify-between flex-row-reverse">
+              <div className="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
               </div>
-              <div className="col-md-6">
-                <div className="carousel-image">
-                  <img
-                    src={hero}
-                    alt="..."
-                    className="d-block w-80 h-auto xs:opacity-35 xs:w-80 xs:h-auto"
-                  />
-                </div>
-              </div>
+              <img src={hero} className="d-block w-20%" alt="..." />
             </div>
           </div>
-          <div className="carousel-item relative">
-            <div className="row">
-              <div className="col-md-6">
-                <div className="carousel-caption text-start absolute w-4/12 top-24">
-                  <h5 className="text-custom-blue  font-custom-heading">
-                    LETS MAKE THE BEST INVESTMENTS
-                  </h5>
-                  <h3 className="text-custom-blue  font-custom-heading">
-                    There Is No Friend As Loyal As A Book
-                  </h3>
-                  <p className="text-custom-green text-wrap font-custom-sub-heading-para">
-                    "Books stand as unwavering companions, offering solace,
-                    wisdom, and escape. There is no loyal friend as faithful as
-                    a book."
-                  </p>
-                </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <div className="flex items-center justify-between flex-row-reverse">
+              <div className="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
               </div>
-              <div className="col-md-6">
-                <div className="carousel-image">
-                  <img
-                    src={hero2}
-                    alt="..."
-                    className="d-block w-80 h-auto xs:w-full xs:opacity-35"
-                  />
-                </div>
-              </div>
+              <img src={hero2} className="d-block w-20%" alt="..." />
             </div>
           </div>
-          <div className="carousel-item relative">
-            <div className="row">
-              <div className="col-md-6">
-                <div className="carousel-caption text-start absolute w-4/12 top-24">
-                  <h5 className="text-custom-blue  font-custom-heading">
-                    LETS MAKE THE BEST INVESTMENTS
-                  </h5>
-                  <h3 className="text-custom-blue  font-custom-heading">
-                    There Is No Friend As Loyal As A Book
-                  </h3>
-                  <p className="text-custom-green text-wrap font-custom-sub-heading-para">
-                    "Books stand as unwavering companions, offering solace,
-                    wisdom, and escape. There is no loyal friend as faithful as
-                    a book."
-                  </p>
-                </div>
+          <div className="carousel-item">
+            <div className="flex items-center justify-between flex-row-reverse">
+              <div className="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
               </div>
-              <div className="col-md-6">
-                <div className="carousel-image">
-                  <img
-                    src={hero3}
-                    alt="..."
-                    className="d-block xs:w-80 xs:h-[64vh] h-[64vh] xs:opacity-35"
-                  />
-                </div>
-              </div>
+              <img src={hero3} className="d-block w-20%" alt="..." />
             </div>
           </div>
-        <button
-          className="carousel-control-prev absolute z-40 p-icon bg-custom-green"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
+        </div>
+        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </button>
-        <button
-          className="carousel-control-next absolute"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
-    </div>
+    </section>
   );
 }
 

@@ -11,6 +11,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Error from "./pages/Error";
 import ProductOverview from "./pages/ProductOverview";
+import ContactUs from "./pages/ContactUs";
 
 
 const router = createBrowserRouter(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route exact path="/" element={<App />}>
         <Route path="/" element={<Home />} />
       </Route>
+      <Route path ="/contactus" element={<ContactUs/>}/>
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
       <Route path="/overview" element={<ProductOverview />} />
