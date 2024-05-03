@@ -33,7 +33,7 @@ export default {
         '2xl': '1537px'
       },
       backgroundImage: {
-        'coverImage' : "url('./src/assets/uploads/cover1.jpg')"
+        'coverImage' : "url('./src/assets/uploads/contact.jpg')"
       }
     },
   },

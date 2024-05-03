@@ -13,7 +13,7 @@ function Register() {
           <Link to="/login">
             <FaRegUser style={{ fontSize: "40px", margin: "10px auto" }} />
           </Link>
-          <h2 className="mt-1 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900 font-custom-heading">
+          <h2 className="mt-1 text-center text-2xl font-bold leading-9 tracking-tight text-custom-blue font-custom-heading">
             Create your account
           </h2>
         </div>
@@ -34,7 +34,7 @@ function Register() {
                   type="name"
                   autocomplete="name"
                   required
-                  className="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
+                  className="block w-full px-3 rounded-md border-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -54,7 +54,7 @@ function Register() {
                   type="email"
                   autocomplete="email"
                   required
-                  className="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
+                  className="block w-full px-3 rounded-md border-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -72,7 +72,7 @@ function Register() {
                   type="phn"
                   autocomplete="phn"
                   required
-                  className="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
+                  className="block w-full px-3 rounded-md border-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -94,7 +94,7 @@ function Register() {
                   type="password"
                   autocomplete="current-password"
                   required
-                  className="block w-full px-3 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
+                  className="block w-full px-3 rounded-md border-2 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-custom-blue sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
