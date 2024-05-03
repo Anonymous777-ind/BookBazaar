@@ -1,60 +1,61 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.min.js";
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "./CarouselSlider.css";
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
 import hero from "../../assets/uploads/hero.png";
-import hero2 from "../../assets/uploads/hero2.png";
-import hero3 from "../../assets/uploads/hero3.png";
-import './CarouselSlider.css'
 
 function CarouselSlides() {
   return (
-    <section className="container mx-auto border-2 border-red-600 h-[85vh]">
-      <div id="carouselExampleDark" className="carousel carousel-dark slide border-2 border-gray-600" data-bs-ride="carousel">
-        <div className="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active" data-bs-interval="10000">
-            <div className="flex items-center justify-between flex-row-reverse">
-              <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-              <img src={hero} className="d-block w-20%" alt="..." />
+    <section className="h-[50vh] border-2 border-green-600">
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        loop={true}
+        autoplay={{
+          delay: 25000000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper container border-2 border-black"
+      >
+        <SwiperSlide className="w-full h-[50vh]">
+          <div className="border-2 border-orange-600 h-[500px] flex justify-between items-center gap-[65vw]">
+            <div>
+              <p>LET'S MAKE THE BEST INVESTMENT</p>
+              <h1>There Is No Friend As Loyal As Book</h1>
+            </div>
+            <div>
+              <img src={hero} alt="hero" />
             </div>
           </div>
-          <div className="carousel-item" data-bs-interval="2000">
-            <div className="flex items-center justify-between flex-row-reverse">
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-              <img src={hero2} className="d-block w-20%" alt="..." />
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="border-2 border-orange-600 h-[500px] flex justify-between items-center gap-[65vw]">
+            <div className="carousel-content">
+              <p>LET'S MAKE THE BEST INVESTMENT</p>
+              <h1>There Is No Friend As Loyal As Book</h1>
+            </div>
+            <div>
+              <img src={hero} alt="hero" />
             </div>
           </div>
-          <div className="carousel-item">
-            <div className="flex items-center justify-between flex-row-reverse">
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
-              </div>
-              <img src={hero3} className="d-block w-20%" alt="..." />
-            </div>
-          </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
+        </SwiperSlide>
+      </Swiper>
     </section>
   );
 }
-
 export default CarouselSlides;
