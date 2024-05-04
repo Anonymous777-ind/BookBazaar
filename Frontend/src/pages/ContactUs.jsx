@@ -70,7 +70,7 @@ function ContactUs() {
                             </div>
                         </div>
                         <div className="mt-10">
-                            <button type="submit" className="block w-full rounded-md bg-custom-green px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-custom-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-blue font-custom-sub-heading-para  ">Let's talk</button>
+                            <button type="submit" className="block w-full rounded-md bg-custom-green px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-custom-blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-custom-blue font-custom-sub-heading-para  ">Talk to us</button>
                         </div>
                     </form>
                 </div>
