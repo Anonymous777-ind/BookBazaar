@@ -1,2 +1,1 @@
-hyy there,
-let's start project
+Happy summers
