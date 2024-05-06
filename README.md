@@ -17,7 +17,7 @@ BookBazaar is a dynamic web platform developed using the MERN (MongoDB, Express.
 
 ## Technologies Used
 
-- **MongoDB:** NoSQL database for storing book listings, user data, and messages.
+- **MongoDB:** NoSQL database for storing book listings, user data,books data  and messages.
 - **Express.js:** Backend framework for handling HTTP requests, routing, and middleware.
 - **React.js:** Frontend library for building a dynamic and interactive user interface.
 - **Node.js:** JavaScript runtime environment for executing server-side code.
