@@ -56,7 +56,7 @@ function BookGallery() {
                       aria-hidden="true"
                       className="absolute inset-0"
                     ></span>
-                    Atomic Habbits
+                    Atmoic Habbit
                   </Link>
                 </h3>
                 <p className="mt-1 text-sm text-gray-500">Black</p>
